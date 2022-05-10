@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         </nav>
         <div className="w-[60vw] h-max mx-[20vw] mt-[10vh] border-dashed border-4 ">
           <div className="w-[100%]  h-[15vh]  text-[100px] font-bold textGradientWelcome animate-gradient-xy ">
-            Will's Blog
+            {"Will's Blog"}
           </div>
           <div className="w-[100%] h-max  flex items-center justify-center">
             {/* card container */}
