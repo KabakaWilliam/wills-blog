@@ -1,8 +1,17 @@
 import ArticleCard from "./ArticleCard";
+import { useDarkMode } from "usehooks-ts";
 
 const BodyContainer = () => {
+  const { isDarkMode, toggle, enable, disable } = useDarkMode();
+
   return (
-    <div className="w-[100vw] md:w-[60vw] h-max md:mx-[20vw] mt-[10vh] border-dashed border-4 ">
+    <div
+      className={
+        isDarkMode
+          ? `w-[100vw] md:w-[60vw] h-max md:mx-[20vw] mt-[10vh] border-dashed border-4`
+          : `w-[100vw] md:w-[60vw] h-max md:mx-[20vw] mt-[10vh] border-black border-dashed border-4`
+      }
+    >
       <div className="w-[100%] select-none h-[15vh] text-[60px] flex items-center md:block  md:text-[100px] font-bold textGradientWelcome animate-gradient-xy ">
         {"Will's Blog"}
       </div>
