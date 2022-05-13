@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useDarkMode } from "usehooks-ts";
-import { useDarkTheme } from "../lib/hooks/useDarkTheme";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { isDarkMode, toggle, enable, disable } = useDarkMode();
