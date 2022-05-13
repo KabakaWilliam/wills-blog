@@ -4,13 +4,22 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useDarkMode } from "usehooks-ts";
+import { useDarkTheme } from "../lib/hooks/useDarkTheme";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { isDarkMode, toggle, enable, disable } = useDarkMode();
 
   useEffect(() => {
-    document.body.className = isDarkMode ? `bg-black` : `bg-white`;
-  });
+    console.log("isDarkMode:", isDarkMode);
+    isDarkMode ? enable : disable;
+  }, []);
+
+  useEffect(() => {
+    document.body.className = isDarkMode
+      ? `bg-black text-white `
+      : `bg-white text-black `;
+  }, [isDarkMode]);
+
   return (
     <>
       <Navbar />

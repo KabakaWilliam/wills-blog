@@ -1,9 +1,23 @@
-import type { NextPage } from "next";
+import type {
+  GetStaticPaths,
+  GetStaticProps,
+  InferGetStaticPropsType,
+  NextPage,
+} from "next";
 import Head from "next/head";
 import Image from "next/image";
 import BodyContainer from "../components/BodyContainer";
+import fs, { readFileSync } from "fs";
+import matter from "gray-matter";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { ParsedUrlQuery } from "querystring";
 
-const Home: NextPage = () => {
+const Home: NextPage = ({
+  posts,
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const [PostData, setPostData] = useState<posts[]>(posts);
+
   return (
     <div className="">
       <Head>
@@ -19,10 +33,29 @@ const Home: NextPage = () => {
       </Head>
       <div>
         {/* <Navbar /> */}
-        <BodyContainer />
+        <BodyContainer PostData={PostData} />
       </div>
     </div>
   );
 };
 
 export default Home;
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const files = fs.readdirSync("Posts");
+
+  const posts = files.map((fileName) => {
+    const slug = fileName.replace(`.md`, "");
+    const readFile = fs.readFileSync(`Posts/${fileName}`, "utf-8");
+    const { data: frontmatter } = matter(readFile);
+    return {
+      slug,
+      frontmatter,
+    };
+  });
+  return {
+    props: {
+      posts,
+    },
+  };
+};

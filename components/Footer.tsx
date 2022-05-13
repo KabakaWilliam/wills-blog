@@ -1,18 +1,19 @@
 import { ExternalLinkIcon } from "@heroicons/react/outline";
+import { useEffect } from "react";
 import { useDarkMode } from "usehooks-ts";
 import ThemeButton from "./ThemeButton";
 
 const Footer = () => {
   const { isDarkMode, toggle, enable, disable } = useDarkMode();
-
+  console.log("isDarkMode Footer top:", isDarkMode);
+  useEffect(() => {
+    console.log("isDarkMode Footer:", isDarkMode);
+  }, []);
   return (
     <footer className="w-screen h-[20vh] md:px-[20vw] ">
       <div
-        className={
-          isDarkMode
-            ? `md:w-[60vw] h-max md:h-[100%] text-white md:pt-2 pt-5`
-            : `md:w-[60vw] h-max md:h-[100%] text-black md:pt-2 pt-5`
-        }
+        // className={`md:w-[60vw] h-max md:h-[100%] text-black dark:text-white  md:pt-2 pt-5`}
+        className={`md:w-[60vw] h-max md:h-[100%]   md:pt-2 pt-5`}
       >
         <div className="w-[100%] flex-col gap-y-10 md:gap-y-0 h-[90%] md:flex md:flex-row ">
           <div className="md:w-[30%] md:h-[30%]">

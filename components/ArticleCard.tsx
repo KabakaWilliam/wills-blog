@@ -1,4 +1,10 @@
-const ArticleCard = () => {
+interface CardTypes {
+  title: string;
+  frontmatter: {
+    [key: string]: any;
+  };
+}
+const ArticleCard = ({ title, frontmatter }: CardTypes) => {
   return (
     //   card border
     <div className="w-[100%] h-max flex-col flex items-center justify-center border-y border-[1px] border-[#323334]">
@@ -9,14 +15,14 @@ const ArticleCard = () => {
             {" "}
             {/*hover:border-[#EC519B]*/}
             <div className="w-[100%] h-[50%] flex  items-center justify-center text-white text-3xl md:text-4xl font-bold">
-              Why I dont learn CLI commands anymore ?
+              {frontmatter.title}
             </div>
             <div className="w-[100%] h-[50%] flex items-end text-white ">
               <div className="w-[80px] h-[40px] bg-red-300 text-black flex items-center justify-center font-bold rounded-[3px]">
-                CLI
+                {frontmatter.tags}
               </div>
               <div className="w-[90%]  flex justify-end  text-white font-thin">
-                May 11, 2021
+                {frontmatter.date}
               </div>
             </div>
           </div>
