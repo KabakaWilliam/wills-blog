@@ -13,6 +13,7 @@ const ProjectCard = ({ projectData }: data) => {
       <a
         href={projectData.Link}
         target="_blank"
+        rel="noreferrer"
         className="w-[300px] md:w-[20vw] h-[400px] border hover:border-[3px] border-[#ababab] hover:border-[#EC519B]  rounded-lg cursor-pointer   "
       >
         <div className="w-[100%] h-[50%] bg-white  rounded-t-lg relative  ">
