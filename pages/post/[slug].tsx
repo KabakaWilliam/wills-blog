@@ -2,16 +2,19 @@ import { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 import fs, { readFileSync } from "fs";
 import { ParsedUrlQuery } from "querystring";
 import matter from "gray-matter";
-import md from "markdown-it";
+import highlightjs from "markdown-it-highlightjs";
+import markdownIt from "markdown-it";
+
+const md = markdownIt().use(highlightjs);
 
 const Slug: NextPage = ({
   frontmatter,
   content,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
-    <div className="prose  mx-auto">
+    <div className="prose  mx-auto text-gray-500">
       <h1 className="mt-[10vh]">{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      <div dangerouslySetInnerHTML={{ __html: md.render(content) }} />
     </div>
   );
 };
