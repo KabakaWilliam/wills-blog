@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "Netflix UI",
+    "key": 0,
+    "Description": "Recreation of the Netflix UI",
+    "Stack": ["React", "SASS", "Javascript"],
+    "Image": "https://github.com/KabakaWilliam/portfolioWebsite/blob/main/public/frontEndNetflix.gif?raw=true",
+    "Link": "https://github.com/KabakaWilliam/Netflix-UI",
+    "Demo": ""
+  },
+  {
+    "Title": "Kanye Tweets",
+    "key": 1,
+    "Description": "Kanye Quotes over a  twitter card created with Tailwind and Css",
+    "Stack": ["React", "Tailwind", "Typescript", "NextJS"],
+    "Image": "https://github.com/KabakaWilliam/kanye-tweets/raw/main/yeVideo.gif",
+    "Link": "https://github.com/KabakaWilliam/kanye-tweets",
+    "Demo": "https://kanye-tweets.vercel.app/"
+  }
+]

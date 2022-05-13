@@ -17,13 +17,17 @@ const Footer = () => {
       >
         <div className="w-[100%] flex-col gap-y-10 md:gap-y-0 h-[90%] md:flex md:flex-row ">
           <div className="md:w-[30%] md:h-[30%]">
-            <div className="font-bold text-lg">Site</div>
-            <div className="text-[#888989] hover:text-[#EC519B]">Home</div>
-            <div className="text-[#888989] hover:text-[#EC519B]">Blog</div>
-            <div className="text-[#888989] hover:text-[#EC519B]">Projects</div>
+            <div className="font-bold text-lg select-none">Site</div>
+            <div className="cursor-pointer">
+              <div className="text-[#888989] hover:text-[#EC519B]">Home</div>
+              <div className="text-[#888989] hover:text-[#EC519B]">Blog</div>
+              <div className="text-[#888989] hover:text-[#EC519B]">
+                Projects
+              </div>
+            </div>
           </div>
           <div className="md:w-[30%] md:h-[30%]">
-            <div className="font-bold text-lg">Social</div>
+            <div className="font-bold text-lg select-none">Social</div>
             <div className="text-[#888989] ">
               <div className="flex w-[100%] gap-x-2 items-center hover:text-[#EC519B] cursor-pointer ">
                 <span>Linkedin </span>
