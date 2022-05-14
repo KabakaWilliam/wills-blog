@@ -1,13 +1,23 @@
+import { useRouter } from "next/router";
+
 interface CardTypes {
-  title: string;
+  slug: string;
   frontmatter: {
     [key: string]: any;
   };
 }
-const ArticleCard = ({ title, frontmatter }: CardTypes) => {
+const ArticleCard = ({ slug, frontmatter }: CardTypes) => {
+  const router = useRouter();
+  console.log("slug:", slug);
+
   return (
     //   card border
-    <div className="w-[100%] h-max flex-col flex items-center justify-center border-y border-[1px] border-[#323334]">
+    <div
+      onClick={() => {
+        router.push(`/post/${slug}`);
+      }}
+      className="w-[100%] h-max flex-col flex items-center justify-center border-y border-[1px] border-[#323334]"
+    >
       <div className="w-[100%] h-[300px] flex items-center justify-center  ">
         {/* actual card */}
         <div className=" w-[300px] md:w-[60%] h-[240px]  rounded-lg z-30 bg-green-400 group cursor-pointer  ">

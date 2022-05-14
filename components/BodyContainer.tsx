@@ -38,7 +38,7 @@ const BodyContainer = ({ PostData }: PostDataTypes) => {
           {/* actual card */}
 
           {PostData.map(({ slug, frontmatter }) => (
-            <ArticleCard key={slug} title={slug} frontmatter={frontmatter} />
+            <ArticleCard key={slug} slug={slug} frontmatter={frontmatter} />
           ))}
         </div>
       </div>
