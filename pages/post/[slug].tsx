@@ -24,7 +24,7 @@ const Slug: NextPage = ({
   }, [isDarkMode]);
   return (
     <div
-      className={`prose  prose-zinc prose-headings:text-[#2f3031]   mx-auto  `}
+      className={`prose  prose-zinc prose-headings:text-[#57687a]   mx-auto `}
     >
       <h1 className="mt-[10vh] ">{frontmatter.title}</h1>
       <div
