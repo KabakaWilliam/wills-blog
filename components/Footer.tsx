@@ -5,10 +5,8 @@ import ThemeButton from "./ThemeButton";
 
 const Footer = () => {
   const { isDarkMode, toggle, enable, disable } = useDarkMode();
-  console.log("isDarkMode Footer top:", isDarkMode);
-  useEffect(() => {
-    console.log("isDarkMode Footer:", isDarkMode);
-  }, []);
+
+  useEffect(() => {}, []);
   return (
     <footer className="w-screen h-[20vh] md:px-[20vw] ">
       <div

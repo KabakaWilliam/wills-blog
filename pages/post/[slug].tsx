@@ -19,15 +19,18 @@ const Slug: NextPage = ({
     if (isDarkMode) {
       setTextHeader("white");
     } else {
-      setTextHeader("black");
+      setTextHeader("[#2f3031] ");
     }
   }, [isDarkMode]);
   return (
     <div
-      className={`prose  prose-zinc prose-headings:text-${textHeader} text-${textHeader}  mx-auto  `}
+      className={`prose  prose-zinc prose-headings:text-${textHeader}   mx-auto  `}
     >
-      <h1 className="mt-[10vh] ">{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md.render(content) }} />
+      <h1 className="mt-[10vh]">{frontmatter.title}</h1>
+      <div
+        className={`text-${textHeader}`}
+        dangerouslySetInnerHTML={{ __html: md.render(content) }}
+      />
     </div>
   );
 };
