@@ -4,6 +4,8 @@ import { ParsedUrlQuery } from "querystring";
 import matter from "gray-matter";
 import highlightjs from "markdown-it-highlightjs";
 import markdownIt from "markdown-it";
+import { useDarkMode } from "usehooks-ts";
+import { useEffect, useState } from "react";
 
 const md = markdownIt().use(highlightjs);
 
@@ -11,9 +13,20 @@ const Slug: NextPage = ({
   frontmatter,
   content,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const [textHeader, setTextHeader] = useState("black");
+  const { isDarkMode, toggle, enable, disable } = useDarkMode();
+  useEffect(() => {
+    if (isDarkMode) {
+      setTextHeader("white");
+    } else {
+      setTextHeader("black");
+    }
+  }, [isDarkMode]);
   return (
-    <div className="prose  mx-auto text-gray-500">
-      <h1 className="mt-[10vh]">{frontmatter.title}</h1>
+    <div
+      className={`prose  prose-zinc prose-headings:text-${textHeader} text-${textHeader}  mx-auto  `}
+    >
+      <h1 className="mt-[10vh] ">{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: md.render(content) }} />
     </div>
   );
