@@ -1,5 +1,6 @@
 import { ExternalLinkIcon } from "@heroicons/react/outline";
 import Image from "next/image";
+
 import { useDarkMode } from "usehooks-ts";
 interface data {
   projectData: projectData;
@@ -11,7 +12,7 @@ const ProjectCard = ({ projectData }: data) => {
   return (
     <div className="md:w-[50%]  flex justify-center py-5">
       <a
-        href={projectData.Link}
+        href={projectData.Demo}
         target="_blank"
         rel="noreferrer"
         className="w-[300px] md:w-[20vw] h-[400px] border hover:border-[3px] border-[#ababab] hover:border-[#EC519B]  rounded-lg cursor-pointer   "
@@ -37,10 +38,28 @@ const ProjectCard = ({ projectData }: data) => {
           <div className="w-[100%] h-[75px]  text-white text-3xl flex items-center font-bold">
             {" "}
             <div>{projectData.Title}</div>
-            <div className="pl-3">
-              {" "}
-              <ExternalLinkIcon className="h-5 stoke-1 text-[#a0a0a0]" />
-            </div>
+            {projectData.Demo && projectData.Demo.length > 0 ? (
+              <div className="pl-3">
+                {" "}
+                <ExternalLinkIcon className="h-5 stoke-1 text-[#a0a0a0]" />
+              </div>
+            ) : null}
+            {projectData.Link.length > 0 ? (
+              <a
+                onClick={(e) => e.stopPropagation()}
+                target="_blank"
+                rel="noreferrer"
+                href={projectData.Link}
+                className="pl-2 flex items-center"
+              >
+                <Image
+                  src={"/gitIcon.png"}
+                  height={30}
+                  width={30}
+                  className="bg-white border-2 hover:bg-red-400 rounded-full"
+                />
+              </a>
+            ) : null}
           </div>
           <div className="w-[100%] h-[50px] text-[#6d7377] text-lg flex items-start">
             {" "}

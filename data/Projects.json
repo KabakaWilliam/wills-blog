@@ -1,20 +1,56 @@
 [
   {
-    "Title": "Netflix UI",
+    "Title": "Subhub",
     "key": 0,
-    "Description": "Recreation of the Netflix UI",
+    "Description": "A way to share your online subscriptions",
     "Stack": ["React", "SASS", "Javascript"],
-    "Image": "https://github.com/KabakaWilliam/portfolioWebsite/blob/main/public/frontEndNetflix.gif?raw=true",
-    "Link": "https://github.com/KabakaWilliam/Netflix-UI",
-    "Demo": ""
+    "Image": "/subHub.png",
+    "Link": "https://github.com/KabakaWilliam/subHubPublic",
+    "Demo": "https://subhub.app"
   },
   {
     "Title": "Kanye Tweets",
     "key": 1,
     "Description": "Kanye Quotes over a  twitter card created with Tailwind and Css",
     "Stack": ["React", "Tailwind", "Typescript", "NextJS"],
-    "Image": "https://github.com/KabakaWilliam/kanye-tweets/raw/main/yeVideo.gif",
+    "Image": "/yeVideo.gif",
     "Link": "https://github.com/KabakaWilliam/kanye-tweets",
     "Demo": "https://kanye-tweets.vercel.app/"
+  },
+  {
+    "Title": "Number GAN",
+    "key": 2,
+    "Description": "My first attempt at using the MNIST dataset to create a Generative Adversarial Network which recreates numbers",
+    "Stack": ["React", "SASS", "Javascript"],
+    "Image": "/GAN.gif",
+    "Link": "https://github.com/KabakaWilliam/numberGAN",
+    "Demo": ""
+  },
+  {
+    "Title": "Flappy Bird AI",
+    "key": 3,
+    "Description": "Implementation of the NEAT algorithm to train a neural network to play Flappy Bird",
+    "Stack": ["React", "SASS", "Javascript"],
+    "Image": "/flappyBird.gif",
+    "Link": "https://github.com/KabakaWilliam/Flappy-Bird-NEAT-Algorithm",
+    "Demo": ""
+  },
+  {
+    "Title": "Netflix UI",
+    "key": 4,
+    "Description": "Recreation of the Netflix UI",
+    "Stack": ["React", "SASS", "Javascript"],
+    "Image": "https://github.com/KabakaWilliam/portfolioWebsite/blob/main/public/frontEndNetflix.gif?raw=true",
+    "Link": "/Netflix.gif",
+    "Demo": ""
+  },
+  {
+    "Title": "This Website",
+    "key": 5,
+    "Description": "Built with React and Tailwind",
+    "Stack": ["React", "SASS", "Javascript"],
+    "Image": "/myBlog.png",
+    "Link": "https://github.com/KabakaWilliam/wills-blog",
+    "Demo": "blog.williamgitta.com"
   }
 ]
