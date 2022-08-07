@@ -28,7 +28,7 @@ const ArticleCard = ({ slug, frontmatter }: CardTypes) => {
               {frontmatter.title}
             </div>
             <div className="w-[100%] h-[50%] flex items-end text-white ">
-              <div className="w-[80px] h-[40px] bg-red-300 text-black flex items-center justify-center font-bold rounded-[3px]">
+              <div className="w-max h-[40px] px-5 bg-red-300 text-black flex items-center justify-center font-bold rounded-[3px]">
                 {frontmatter.tags}
               </div>
               <div className="w-[90%]  flex justify-end  text-white font-thin">

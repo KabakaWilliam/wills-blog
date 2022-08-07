@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        "gradient-xy": "gradient-xy 20s ease-in-out infinite",
+        "gradient-xy": "gradient- xy 20s ease-in-out infinite",
         "gradient-xy-fast": "gradient-xy 25s ease-in-out infinite",
         "gradient-xy-faster": "gradient-xy 30s ease-in-out infinite",
       },

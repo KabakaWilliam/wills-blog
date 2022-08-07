@@ -21,6 +21,9 @@ const ProjectsContainer = () => {
       <ProjectCard />
       <ProjectCard />
       <ProjectCard /> */}
+      <div className="w-[100%] select-none h-[15vh] text-[60px] flex items-center md:block  md:text-[100px] font-bold textGradientWelcome animate-gradient-xy ">
+        {"Projects ..."}
+      </div>
       {ProjectJSON.map((projectData) => (
         <ProjectCard key={projectData.key} projectData={projectData} />
       ))}
