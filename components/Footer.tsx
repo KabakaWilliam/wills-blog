@@ -44,6 +44,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/williamgitta/"
                 target={"_blank"}
+                rel="noreferrer"
                 className="flex w-[100%] gap-x-2 items-center hover:text-[#EC519B] cursor-pointer "
               >
                 <span>Linkedin </span>
@@ -52,6 +53,7 @@ const Footer = () => {
               <a
                 href="https://twitter.com/William__Gitta"
                 target={"_blank"}
+                rel="noreferrer"
                 className="flex w-[100%] gap-x-2 items-center hover:text-[#EC519B] cursor-pointer"
               >
                 <span>Twitter </span>
@@ -60,6 +62,7 @@ const Footer = () => {
               <a
                 href="https://github.com/KabakaWilliam"
                 target={"_blank"}
+                rel="noreferrer"
                 className="flex w-[100%] gap-x-2 items-center hover:text-[#EC519B] cursor-pointer"
               >
                 <span>Github </span>
