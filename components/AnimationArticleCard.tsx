@@ -5,9 +5,8 @@ interface CardTypes {
   frontmatter: {
     [key: string]: any;
   };
-  animation?: boolean;
 }
-const ArticleCard = ({ slug, frontmatter, animation }: CardTypes) => {
+const AnimationArticleCard = ({ slug, frontmatter }: CardTypes) => {
   const router = useRouter();
   console.log("slug:", slug);
 
@@ -15,11 +14,7 @@ const ArticleCard = ({ slug, frontmatter, animation }: CardTypes) => {
     //   card border
     <div
       onClick={() => {
-        if (animation) {
-          router.push(`/Animation/${slug}`);
-        } else {
-          router.push(`/post/${slug}`);
-        }
+        router.push(`/Animation/${slug}`);
       }}
       className="w-[100%] h-max flex-col flex items-center justify-center border-y border-[1px] border-[#323334]"
     >
@@ -47,4 +42,4 @@ const ArticleCard = ({ slug, frontmatter, animation }: CardTypes) => {
   );
 };
 
-export default ArticleCard;
+export default AnimationArticleCard;

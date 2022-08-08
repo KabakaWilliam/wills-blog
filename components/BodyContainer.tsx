@@ -3,9 +3,10 @@ import { useDarkMode } from "usehooks-ts";
 import { useEffect, useState } from "react";
 interface PostDataTypes {
   PostData: Array<posts>;
+  animation?: boolean;
 }
 
-const BodyContainer = ({ PostData }: PostDataTypes) => {
+const BodyContainer = ({ PostData, animation }: PostDataTypes) => {
   const { isDarkMode, toggle, enable, disable } = useDarkMode();
   const [border, setBorder] = useState("border-black");
 
@@ -37,9 +38,18 @@ const BodyContainer = ({ PostData }: PostDataTypes) => {
         <div className="w-[100%] h-max flex-col flex items-center justify-center  border-red-400">
           {/* actual card */}
 
-          {PostData.map(({ slug, frontmatter }) => (
-            <ArticleCard key={slug} slug={slug} frontmatter={frontmatter} />
-          ))}
+          {!animation
+            ? PostData.map(({ slug, frontmatter }) => (
+                <ArticleCard key={slug} slug={slug} frontmatter={frontmatter} />
+              ))
+            : PostData.map(({ slug, frontmatter }) => (
+                <ArticleCard
+                  animation
+                  key={slug}
+                  slug={slug}
+                  frontmatter={frontmatter}
+                />
+              ))}
         </div>
       </div>
     </div>

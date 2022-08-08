@@ -33,7 +33,7 @@ const AnimationBlogPage: NextPage = ({
       </Head>
       <div>
         {/* <Navbar /> */}
-        <BodyContainer PostData={PostData} />
+        <BodyContainer PostData={PostData} animation={true} />
       </div>
     </div>
   );
