@@ -8,7 +8,4 @@ tags:
   - RENDER
 ---
 
-<!-- ![FirstRender](../public/manipulate.jpg "First Render")
-![FirstRender](file://../manipulate.jpg "First Render") -->
-
 ![FirstRender](https://github.com/KabakaWilliam/wills-blog/blob/main/public/manipulate.jpg?raw=true)
