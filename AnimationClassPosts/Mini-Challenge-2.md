@@ -3,7 +3,7 @@ title: "Mini-Challenge-2"
 metaTitle: "Mini-Challenge-2"
 metaDesc: "its my Mini-Challenge-2"
 socialImage: /manipulate.jpg
-date: "2022-08-08"
+date: "2022-08-17"
 tags:
   - Challenge1
 ---
