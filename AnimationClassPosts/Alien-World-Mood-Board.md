@@ -1,13 +1,11 @@
 ---
-title: "Alien world"
-metaTitle: "Alien world"
-metaDesc: "its my Alien world"
+title: "Mood Board"
+metaTitle: "Mood Board"
+metaDesc: "its my Mood Board"
 socialImage: /manipulate.jpg
 date: "2022-08-25"
 tags:
   - Mood Board
 ---
 
-# Mood Board
-
-![AlienWorld](/BlogPics/moodBoard/moodBoard.jpg)
+![AlienWorld](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/moodBoard/moodBoard.jpg?raw=true)
