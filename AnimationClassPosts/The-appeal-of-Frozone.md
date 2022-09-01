@@ -1,12 +1,14 @@
 ---
-title: "Character Appeal"
-metaTitle: "Character Appeal"
+title: "The appeal of Frozone"
+metaTitle: "The appeal of Frozone"
 metaDesc: "its my Mini-Challenge-2"
 socialImage: /manipulate.jpg
 date: "2022-08-17"
 tags:
   - Appeal
 ---
+
+![gif](https://i.pinimg.com/originals/87/29/e6/8729e624c6c4d3392a9748cfe2928ad5.jpg)
 
 2005 is the first year I ever heard the phrase “where’s my super suit”. I can’t be the only one to hear that and not immediately think of Frozone from the incredibles.
 
