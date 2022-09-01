@@ -14,7 +14,11 @@ tags:
 
 ![fight](https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/Where-Is-My-Super-Suit-10-Hilarious-Incredibles-Frozone-Memes-featured-image.jpg)
 
-The major reason I find him appealing strives from his very, for lack of a better term, cool persona. Voiced Samuel L Jackson, Frozone manages to steal every scene he’s in either because of his excellent humerous dialogue and his sleek super suit. Even his civilian clothing exudes class. From tuxedos to turtlenecks, to even the design of his apartment, each time you see him on screen, you can’t help to notice how classy he is especially when contrasted with most of the characters normal clothes.
+The major reason I find him appealing strives from his very, for lack of a better term, cool persona. Voiced Samuel L Jackson, Frozone manages to steal every scene he’s in either because of his excellent humerous dialogue and his sleek super suit.
+
+Even his civilian clothing exudes class. From tuxedos to turtlenecks, to even the design of his apartment, each time you see him on screen, you can’t help to notice how classy he is especially when contrasted with most of the characters normal clothes.
+
+Lastly, he has a very infectious smile on his face which makes him feel very welcoming. This is a great addition to a movie that can be somewhat over serious. He creates a serious air of comedic relief
 
 Here’s a clip of his that I feel best explains his appeal:
 
