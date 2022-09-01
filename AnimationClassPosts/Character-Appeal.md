@@ -10,12 +10,9 @@ tags:
 
 2005 is the first year I ever heard the phrase “where’s my super suit”. I can’t be the only one to hear that and not immediately think of Frozone from the incredibles.
 
-<br/>
+## Frozone's civilian and superhero design
 
 ![fight](https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/Where-Is-My-Super-Suit-10-Hilarious-Incredibles-Frozone-Memes-featured-image.jpg)
-<br>Frozone's civilian and superhero design</br>
-
-<br/>
 
 The major reason I find him appealing strives from his very, for lack of a better term, cool persona. Voiced Samuel L Jackson, Frocone manages to steal every scene he’s in either because of his excellent humerous dialogue and his sleek super suit. Even his civilian clothing exudes class. From tuxedos to turtlenecks, to even the design of his apartment, each time you see him on screen, you can’t help to notice how classy he is especially when contrasted with most of the characters normal clothes.
 
