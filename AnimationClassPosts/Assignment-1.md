@@ -97,3 +97,29 @@ In the beginning of the lake I added the satelite dish to imply the fact that th
 ![Reference](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/assignment1/satellites.png?raw=true)
 
 <br/>
+
+No world is complete without organisms. Sinze I wanted to copy the atmosphere from horizon zero dawn I took inspiration from the watcher machines.
+
+<br/>
+
+###### Watchers from Horizon Zero Dawn
+
+![Reference](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/assignment1/watchers.jpeg?raw=true)
+
+<br/>
+
+I went to the asset browser and used the spaceship model as it had a similar color pallet and machine feel. By having the edge of the spaceship appear in the foreground, I made it appear as if the spaceship was actually a walking robot. I cloned a few of the spaceships to give the picture more life.
+
+<br/>
+
+###### Aliens/spacehip included
+
+![Reference](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/assignment1/alien.png?raw=true)
+
+<br/>
+
+And viola, this is the final look after completing the render.
+
+# Redner
+
+![AlienWorld](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/assignment1/finalRender.png?raw=true)
