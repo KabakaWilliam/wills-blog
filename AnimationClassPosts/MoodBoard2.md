@@ -8,4 +8,4 @@ tags:
   - MoodBoard2
 ---
 
-![AlienWorld](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/moodBoard/pollock.tiff?raw=true)
+![AlienWorld](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/moodBoard/pollock.png?raw=true)
