@@ -9,4 +9,4 @@ tags:
   - https://youtu.be/_6sxbYENqOo
 ---
 
-![AlienWorld](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/miniChallenge3/squishyPic.png?raw=true)
+[![SQUASH-STRETCH](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/miniChallenge3/squishyPic.png?raw=true)](https://www.youtube.com/watch?v=_6sxbYENqOo)
