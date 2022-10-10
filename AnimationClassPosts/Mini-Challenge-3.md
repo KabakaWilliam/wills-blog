@@ -6,7 +6,6 @@ socialImage: /manipulate.jpg
 date: "2022-08-25"
 tags:
   - Mini-Challenge-3
-  - https://youtu.be/_6sxbYENqOo
 ---
 
 # Young Victoria Rack Focus
