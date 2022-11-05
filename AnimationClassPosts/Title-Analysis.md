@@ -10,6 +10,8 @@ tags:
 
 # Arcane Opening
 
+![HeroShot](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/blog4/sisters-centered.png?raw=true)
+
 The first thing that strikes when you look at Netflix's Arcane opening is the stone / marble textures applied to the characters. What intiially looks like static marble statues are revealed to be slowed down characters relative to the camera. This has the effect of giving the viewers more time to analyze the traits of the different characters on the screen whilst also fitting within the context of the show being about "Legends" or idols within the video game: League of Legends.
 
 ### Marble textured characters
@@ -22,13 +24,23 @@ Next, we have to acknowlegde the remarkable use of lighting to add context to th
 
 ![HeroShot](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/blog4/lighting.png?raw=true)
 
+### Lighting to show tension between good and evil
+
+![HeroShot](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/blog4/colors.png?raw=true)
+
 It would also be remiss to not mention how the cinematography and blocking contributed to holding the audiences visual attention. By centering the different characters within the scene and keeping off center elements minimal, the animators are able to easily communicate an idea or motif simply.
 
 ### The hero vs the villain
 
+![HeroShot](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/blog4/sisvsis.png?raw=true)
+
 ### The wise man
 
-### The invention that changed everythin
+![HeroShot](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/blog4/oldMan.png?raw=true)
+
+### The invention that changed everything
+
+![HeroShot](https://github.com/KabakaWilliam/wills-blog/blob/main/BlogPics/blog4/discovery.png?raw=true)
 
 These scenes all have their main idea firmly in the center of the screen. In an opening that is less than 80 seconds, the animators make the most of every frame by centering the action and also slowing down the animation to allwo for these ideas to be baked into the audience's subconscious
 
